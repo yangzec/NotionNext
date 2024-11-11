@@ -362,7 +362,7 @@ const CONFIG = {
 
   // 页面底部的行动呼吁模块
   STARTER_CTA_ENABLE: true,
-  STARTER_CTA_TITLE: '你还在等待什么呢？',
+  STARTER_CTA_TITLE: '开始玩吧',
   STARTER_CTA_TITLE_2: '现在开始吧',
   STARTER_CTA_DESCRIOTN:
     '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
