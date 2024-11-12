@@ -14,6 +14,38 @@ export const Hero = props => {
         className='relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]'>
         <div className='container'>
           <div className='-mx-4 flex flex-wrap items-center'>
+
+
+            {/* 产品预览图片 */}
+            {siteConfig('STARTER_HERO_PREVIEW_IMAGE', null, CONFIG) && (
+              <div className='w-full px-4'>
+                <div
+                  className='wow fadeInUp relative z-10 mx-auto max-w-[845px]'
+                  data-wow-delay='.25s'>
+                  <div className='mt-32'>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={siteConfig(
+                        'STARTER_HERO_PREVIEW_IMAGE',
+                        null,
+                        CONFIG
+                      )}
+                      alt={siteConfig('TITLE', null, CONFIG)}
+                      title={siteConfig('TITLE', null, CONFIG)}
+                      className='mx-auto max-w-full rounded-t-xl rounded-tr-xl'
+                    />
+                  </div>
+
+                  {/* 背景图 */}
+                  <div className='absolute -left-9 bottom-0 z-[-1]'>
+                    <img src='/images/starter/bg-hero-circle.svg' />
+                  </div>
+                  <div className='absolute -right-6 -top-6 z-[-1]'>
+                    <img src='/images/starter/bg-hero-circle.svg' />
+                  </div>
+                </div>
+              </div>
+            )}
             <div className='w-full px-4'>
               <div
                 className='hero-content wow fadeInUp mx-auto max-w-[780px] text-center'
@@ -69,37 +101,6 @@ export const Hero = props => {
                 </ul>
               </div>
             </div>
-
-            {/* 产品预览图片 */}
-            {siteConfig('STARTER_HERO_PREVIEW_IMAGE', null, CONFIG) && (
-              <div className='w-full px-4'>
-                <div
-                  className='wow fadeInUp relative z-10 mx-auto max-w-[845px]'
-                  data-wow-delay='.25s'>
-                  <div className='mt-32'>
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={siteConfig(
-                        'STARTER_HERO_PREVIEW_IMAGE',
-                        null,
-                        CONFIG
-                      )}
-                      alt={siteConfig('TITLE', null, CONFIG)}
-                      title={siteConfig('TITLE', null, CONFIG)}
-                      className='mx-auto max-w-full rounded-t-xl rounded-tr-xl'
-                    />
-                  </div>
-
-                  {/* 背景图 */}
-                  <div className='absolute -left-9 bottom-0 z-[-1]'>
-                    <img src='/images/starter/bg-hero-circle.svg' />
-                  </div>
-                  <div className='absolute -right-6 -top-6 z-[-1]'>
-                    <img src='/images/starter/bg-hero-circle.svg' />
-                  </div>
-                </div>
-              </div>
-            )}
           </div>
         </div>
       </div>
