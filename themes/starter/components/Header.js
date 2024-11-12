@@ -71,7 +71,7 @@ export const Header = props => {
                 {/* 注册登录功能 */}
                 {enableClerk && (
                   <>
-                    <SignedOut>
+                    {/* <SignedOut>
                       <div className='hidden sm:flex gap-4'>
                         <Link
                           href={siteConfig('STARTER_NAV_BUTTON_1_URL')}
@@ -87,7 +87,7 @@ export const Header = props => {
                     </SignedOut>
                     <SignedIn>
                       <UserButton />
-                    </SignedIn>
+                    </SignedIn> */}
                   </>
                 )}
                 {!enableClerk && (
