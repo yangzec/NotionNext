@@ -69,9 +69,9 @@ export const Header = props => {
                 {/* 深色模式切换 */}
                 <DarkModeButton />
                 {/* 注册登录功能 */}
-                {enableClerk && (
+                {/* {enableClerk && (
                   <>
-                    {/* <SignedOut>
+                    <SignedOut>
                       <div className='hidden sm:flex gap-4'>
                         <Link
                           href={siteConfig('STARTER_NAV_BUTTON_1_URL')}
@@ -87,7 +87,7 @@ export const Header = props => {
                     </SignedOut>
                     <SignedIn>
                       <UserButton />
-                    </SignedIn> */}
+                    </SignedIn>
                   </>
                 )}
                 {!enableClerk && (
@@ -103,7 +103,7 @@ export const Header = props => {
                       {siteConfig('STARTER_NAV_BUTTON_2_TEXT')}
                     </a>
                   </div>
-                )}
+                )} */}
               </div>
             </div>
           </div>
