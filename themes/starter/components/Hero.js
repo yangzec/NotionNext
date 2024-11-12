@@ -54,7 +54,7 @@ export const Hero = props => {
                           CONFIG
                         ) && (
                           <img
-                            className='mr-4'
+                            className='mr-4 max-h-6 max-w-6 object-contain'
                             src={siteConfig(
                               'STARTER_HERO_BUTTON_2_ICON',
                               null,
