@@ -15,7 +15,7 @@ export const Features = () => {
         <div className='container'>
           <div className='-mx-4 flex flex-wrap'>
             <div className='w-full px-4'>
-              <div className='mx-auto mb-12 max-w-[485px] text-center lg:mb-[70px]'>
+              <div className='mx-auto mb-12 max-w-[685px] text-center lg:mb-[70px]'>
                 <span className='mb-2 block text-lg font-semibold text-primary'>
                   {siteConfig('STARTER_FEATURE_TITLE')}
                 </span>

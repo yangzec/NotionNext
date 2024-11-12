@@ -59,7 +59,7 @@ export const About = () => {
 
                     <div className='relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8'>
                       <div>
-                        <span className='block text-5xl font-extrabold text-white'>
+                        <span className='block text-3xl font-extrabold text-white'>
                           {siteConfig('STARTER_ABOUT_TIPS_1')}
                         </span>
                         <span className='block text-base font-semibold text-white'>
