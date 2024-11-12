@@ -22,7 +22,7 @@ export const Hero = props => {
                 <div
                   className='wow fadeInUp relative z-10 mx-auto max-w-[845px]'
                   data-wow-delay='.25s'>
-                  <div className='mt-32'>
+                  <div className='mt-2'>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={siteConfig(
