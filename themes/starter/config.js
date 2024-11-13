@@ -171,33 +171,33 @@ const CONFIG = {
 
   //   FAQ 常见问题模块
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
-  STARTER_FAQ_TITLE: '常见问题解答',
-  STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
-  STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
+  STARTER_FAQ_TITLE: 'Frequently Asked Questions',
+  STARTER_FAQ_TEXT_1: 'Have any questions? Look here',
+  STARTER_FAQ_TEXT_2: 'We have collected common user questions',
 
-  STARTER_FAQ_1_QUESTION: 'NotionNext有帮助文档吗？',
+  STARTER_FAQ_1_QUESTION: 'Does NotionNext have documentation?',
   STARTER_FAQ_1_ANSWER:
-    'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署',
+    'NotionNext provides <a href="https://docs.tangly1024.com/about" className="underline">documentation</a>, <a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">tutorial videos</a>, and a <a href="https://docs.tangly1024.com/article/chat-community" className="underline">community</a> to help you build and deploy your website',
 
-  STARTER_FAQ_2_QUESTION: '部署后要如何编写文章？',
+  STARTER_FAQ_2_QUESTION: 'How do I write articles after deployment?',
   STARTER_FAQ_2_ANSWER:
-    '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>',
+    'You can directly add or modify pages of type Post in Notion, and the content will be synchronized to the site in real-time. For details, please refer to the <a className="underline" href="https://docs.tangly1024.com/article/start-to-write">Documentation</a>',
 
-  STARTER_FAQ_3_QUESTION: '站点部署失败，更新失败？',
+  STARTER_FAQ_3_QUESTION: 'Site deployment failed or updates failed?',
   STARTER_FAQ_3_ANSWER:
-    '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助',
+    'Usually caused by configuration errors. Please check your configuration or retry the operation steps, or find error logs in Deployments through the Vercel dashboard and seek help from other users',
 
-  STARTER_FAQ_4_QUESTION: '文章没有实时同步？',
+  STARTER_FAQ_4_QUESTION: 'Articles not syncing in real-time?',
   STARTER_FAQ_4_ANSWER:
-    '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决',
+    'First check if Notion_Page_ID is configured correctly. Secondly, since each page of the blog has an independent cache, refreshing the webpage will resolve the issue',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
-  STARTER_TEAM_TITLE: '团队成员',
-  STARTER_TEAM_TEXT_1: '我们的开发者团队',
+  STARTER_TEAM_TITLE: 'Team Members',
+  STARTER_TEAM_TEXT_1: 'Our Development Team',
   STARTER_TEAM_TEXT_2:
-    'NotionNext 由众多开源技术爱好者们共同合作完成，感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
-
+    'NotionNext is collaboratively completed by many open source technology enthusiasts. Thanks to every <a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">contributor</a>',
+    
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
     {
