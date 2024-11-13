@@ -10,6 +10,9 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
+  STARTER_BRAND_TITLE: 'Our Partners',
+  STARTER_BRAND_TEXT_1: 'Partnering with Industry Leaders to Drive Innovation',
+  STARTER_BRAND_TEXT_2: 'Building a New Ecosystem with Industry Leaders',
   STARTER_HERO_TITLE_1: 'Sprunki Incredibox: Your Sprunky Musical Playground', // 英雄区文字
   STARTER_HERO_TITLE_2: 'Design, Blend, and Bounce to Your Own Spunky Rhythms!', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
