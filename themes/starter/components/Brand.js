@@ -8,7 +8,7 @@ import { siteConfig } from '@/lib/config'
  */
 export const Brand = () => {
   const brands = siteConfig('STARTER_BRANDS')
-  const CONFIG = props?.NOTION_CONFIG || CONFIG
+  // const CONFIG = props?.NOTION_CONFIG || CONFIG
   return (
     <>
       {/* <!-- ====== Brands Section Start --> */}
@@ -22,11 +22,11 @@ export const Brand = () => {
                   {/* Our Partners */}
                 </span>
                 <h2 className='mb-3 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.2]'>
-                  {siteConfig('STARTER_BRAND_TEXT_1', null, CONFIG)}
+                  {siteConfig('STARTER_BRAND_TEXT_1')}
                   {/* Partnering with Industry Leaders to Drive Innovation */}
                 </h2>
                 <p className='text-base text-body-color dark:text-dark-6'>
-                  {siteConfig('STARTER_BRAND_TEXT_2', null, CONFIG)}
+                  {siteConfig('STARTER_BRAND_TEXT_2')}
                   {/* Building a New Ecosystem with Industry Leaders */}
                 </p>
               </div>
