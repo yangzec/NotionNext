@@ -20,12 +20,12 @@ export const Brand = () => {
                   <img
                     src={item.IMAGE}
                     alt={item.TITLE}
-                    className='dark:hidden'
+                    className='max-h-[40px] w-auto dark:hidden'
                   />
                   <img
                     src={item.IMAGE_WHITE}
                     alt={item.TITLE}
-                    className='hidden dark:block'
+                    className='max-h-[40px] w-auto hidden dark:block'
                   />
                 </a>
               )

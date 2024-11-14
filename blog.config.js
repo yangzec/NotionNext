@@ -3,7 +3,7 @@ const BLOG = {
   // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID ||
-    '13babb7e07ce80adb94fd1bbe121669b,ru:13babb7e07ce80e5ac33f95d3056cde8,zh:139abb7e07ce80569266cbce3c34dcf6,jp:13babb7e07ce809fbc28c61a777b40ec',
+    '13babb7e07ce80adb94fd1bbe121669b,jp:13eabb7e07ce8009a6e0fe5cb7f30426,ko:13eabb7e07ce8051a4ead3b40ed7a893,es:13eabb7e07ce808299c4f83864f54a39,ru:13eabb7e07ce80eb97f2e8f9863140d6,de:13eabb7e07ce8055a846f5454a5aec15,fr:13eabb7e07ce802796aafab03c3ff140,zh:13eabb7e07ce80cbbda9dfc0c766f8c6',
   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || false,
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // 伪静态路径，开启后所有文章URL都以 .html 结尾。
   NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 5, // 更新内容缓存间隔 单位(秒)；即每个页面有5秒的纯静态期、此期间无论多少次访问都不会抓取notion数据；调大该值有助于节省Vercel资源、同时提升访问速率，但也会使文章更新有延迟。
