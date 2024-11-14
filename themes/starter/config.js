@@ -197,7 +197,7 @@ const CONFIG = {
   STARTER_TEAM_TEXT_1: 'Our Development Team',
   STARTER_TEAM_TEXT_2:
     'NotionNext is collaboratively completed by many open source technology enthusiasts. Thanks to every <a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">contributor</a>',
-    
+
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
     {
@@ -226,7 +226,7 @@ const CONFIG = {
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
   STARTER_BLOG_TITLE: 'Blogs',
-  STARTER_BLOG_COUNT: 5, // 首页博文区块默认展示前3篇文章
+  STARTER_BLOG_COUNT: 6, // 首页博文区块默认展示前3篇文章
   STARTER_BLOG_TEXT_1: 'Latest',
   STARTER_BLOG_TEXT_2:
     'Stay updated with the latest news from Super Factory, including new developments, future roadmaps, and exciting feature releases',
@@ -339,11 +339,11 @@ const CONFIG = {
     STARTER_CTA_TITLE_2: 'Get Started Now',
     STARTER_CTA_DESCRIOTN: 'Visit our documentation for detailed tutorials to help you build your site instantly',
     STARTER_CTA_BUTTON: true, // 是否显示按钮
-    STARTER_CTA_BUTTON_URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
+    STARTER_CTA_BUTTON_URL: 'https://template.superfactory.net/',
     STARTER_CTA_BUTTON_TEXT: 'Get Started',
   
     STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-    STARTER_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
+    STARTER_POST_REDIRECT_URL: 'https://template.superfactory.net/, // 重定向域名
     STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能
   }
 export default CONFIG
