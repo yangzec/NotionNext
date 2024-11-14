@@ -72,7 +72,7 @@ const CONFIG = {
   STARTER_ABOUT_TIPS_3: 'Running Online',
 
   // 首页价格区块
-  STARTER_PRICING_ENABLE: true, // 价格区块开关
+  STARTER_PRICING_ENABLE: false, // 价格区块开关
   STARTER_PRICING_TITLE: 'Pricing',
   STARTER_PRICING_TEXT_1: 'Great Pricing Plans',
   STARTER_PRICING_TEXT_2: 'We offer flexible payment plans to suit your needs. (This is just a demo of subscription features, please do not purchase!)',
@@ -192,7 +192,7 @@ const CONFIG = {
     'First check if Notion_Page_ID is configured correctly. Secondly, since each page of the blog has an independent cache, refreshing the webpage will resolve the issue',
 
   // 团队成员区块
-  STARTER_TEAM_ENABLE: true, // 团队成员区块开关
+  STARTER_TEAM_ENABLE: false, // 团队成员区块开关
   STARTER_TEAM_TITLE: 'Team Members',
   STARTER_TEAM_TEXT_1: 'Our Development Team',
   STARTER_TEAM_TEXT_2:
