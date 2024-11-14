@@ -94,7 +94,7 @@ const LayoutIndex = props => {
       {/* 产品特性 */}
       {siteConfig('STARTER_FEATURE_ENABLE', true, CONFIG) && <Features />}
       {/* 价格 */}
-      {siteConfig('STARTER_PRICING_ENABLE', true, CONFIG) && <Pricing />}
+      {/* {siteConfig('STARTER_PRICING_ENABLE', true, CONFIG) && <Pricing />} */}
       {/* 评价展示 */}
       {siteConfig('STARTER_TESTIMONIALS_ENABLE', true, CONFIG) && (
         <Testimonials />
@@ -102,7 +102,7 @@ const LayoutIndex = props => {
       {/* 常见问题 */}
       {siteConfig('STARTER_FAQ_ENABLE', true, CONFIG) && <FAQ />}
       {/* 团队介绍 */}
-      {siteConfig('STARTER_TEAM_ENABLE', true, CONFIG) && <Team />}
+      {/* {siteConfig('STARTER_TEAM_ENABLE', true, CONFIG) && <Team />} */}
       {/* 博文列表 */}
       {siteConfig('STARTER_BLOG_ENABLE', true, CONFIG) && (
         <>
@@ -116,10 +116,10 @@ const LayoutIndex = props => {
         </>
       )}
       {/* 联系方式 */}
-      {siteConfig('STARTER_CONTACT_ENABLE', true, CONFIG) && <Contact />}
+      {/* {siteConfig('STARTER_CONTACT_ENABLE', true, CONFIG) && <Contact />} */}
 
       {/* 行动呼吁 */}
-      {siteConfig('STARTER_CTA_ENABLE', true, CONFIG) && <CTA />}
+      {/* {siteConfig('STARTER_CTA_ENABLE', true, CONFIG) && <CTA />} */}
     </>
   )
 }
