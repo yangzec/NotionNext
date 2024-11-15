@@ -3,7 +3,7 @@ const BLOG = {
   // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID ||
-    '13babb7e07ce80adb94fd1bbe121669b,jp:13eabb7e07ce8009a6e0fe5cb7f30426,ko:13eabb7e07ce8051a4ead3b40ed7a893,es:13eabb7e07ce808299c4f83864f54a39,ru:13eabb7e07ce80eb97f2e8f9863140d6,de:13eabb7e07ce8055a846f5454a5aec15,fr:13eabb7e07ce802796aafab03c3ff140,zh:13eabb7e07ce80cbbda9dfc0c766f8c6',
+    '13babb7e07ce80adb94fd1bbe121669b,jp:13eabb7e07ce8009a6e0fe5cb7f30426,ko:13eabb7e07ce8051a4ead3b40ed7a893,es:13eabb7e07ce808299c4f83864f54a39,ru:13eabb7e07ce80eb97f2e8f9863140d6,de:13eabb7e07ce8055a846f5454a5aec15,fr:13eabb7e07ce802796aafab03c3ff140,zh:13eabb7e07ce80cbbda9dfc0c766f8c6,zhtw:13fabb7e07ce808ea026f90bf478b8d8,bn:13fabb7e07ce80dbbb97ca333a6f9a76,pt:13fabb7e07ce801292bec37d7cbfd1b6,id:13fabb7e07ce80a6a516c9c40638b2d6,tr:13fabb7e07ce80e6b001e6039fea60db,vi:13fabb7e07ce80dfb3dae83fd0063901,th:13fabb7e07ce80edbbb2dd8fb298eb00,it:13fabb7e07ce80bf9781ece3a68c1ebf,uk:13fabb7e07ce8087b2e2ee680cc99df6',
   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || false,
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // 伪静态路径，开启后所有文章URL都以 .html 结尾。
   NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 5, // 更新内容缓存间隔 单位(秒)；即每个页面有5秒的纯静态期、此期间无论多少次访问都不会抓取notion数据；调大该值有助于节省Vercel资源、同时提升访问速率，但也会使文章更新有延迟。
