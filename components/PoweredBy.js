@@ -12,7 +12,8 @@ export default function PoweredBy(props) {
       <a
         href='https://github.com/tangly1024/NotionNext'
         className='underline justify-start'>
-        NotionNext {siteConfig('VERSION')}
+        {/* NotionNext {siteConfig('VERSION')} */}
+        sprunkincredibox.online/
       </a>
       .
     </div>
