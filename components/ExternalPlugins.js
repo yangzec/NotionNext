@@ -63,6 +63,7 @@ const ExternalPlugin = props => {
   const MOUSE_FOLLOW = siteConfig('MOUSE_FOLLOW')
   const CUSTOM_EXTERNAL_CSS = siteConfig('CUSTOM_EXTERNAL_CSS')
   const CUSTOM_EXTERNAL_JS = siteConfig('CUSTOM_EXTERNAL_JS')
+  const LINK = siteConfig('LINK')
   // 默认关闭NProgress
   const ENABLE_NPROGRSS = siteConfig('ENABLE_NPROGRSS', false)
   const COZE_BOT_ID = siteConfig('COZE_BOT_ID')
@@ -363,9 +364,10 @@ const ExternalPlugin = props => {
       )}
 
       {/* Plausible 统计 */}
-      {(
-        <script defer data-domain="sprunkincredibox.online" src="https://plausible.io/js/script.js"></script>
-        <script defer data-domain="n.sprunkincredibox.online" src="https://plausible.io/js/script.js"></script>
+      {LINK && (
+        <script defer data-domain={LINK} src="https://plausible.io/js/script.js"></script>
+        // <script defer data-domain="sprunkincredibox.online" src="https://plausible.io/js/script.js"></script>
+        // <script defer data-domain="n.sprunkincredibox.online" src="https://plausible.io/js/script.js"></script>
       )}
     </>
   )
