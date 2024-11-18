@@ -288,7 +288,6 @@ const ExternalPlugin = props => {
           />
         </>
       )}
-
       {/* 百度统计 */}
       {ANALYTICS_BAIDU_ID && (
         <script
@@ -361,6 +360,11 @@ const ExternalPlugin = props => {
             `
           }}
         />
+      )}
+
+      {/* Plausible 统计 */}
+      {(
+        <script defer data-domain="n.sprunkincredibox.online" src="https://plausible.io/js/script.js"></script>
       )}
     </>
   )
