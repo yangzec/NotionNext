@@ -26,7 +26,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'NotionNext', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://sprunkincredibox.online/', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'sprunkincredibox.online', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
@@ -477,7 +477,7 @@ const BLOG = {
   ADSENSE_GOOGLE_SLOT_FLOW:
     process.env.NEXT_PUBLIC_ADSENSE_GOOGLE_SLOT_FLOW || '5025696663', // Google AdScene>广告>按单元广告>新建信息流广告
   ADSENSE_GOOGLE_SLOT_NATIVE:
-    process.env.NEXT_PUBLIC_ADSENSE_GOOGLE_SLOT_NATIVE || '4980048999', // Google AdScene>广告>按单元广告>新建原生广告
+    process.env.NEXT_PUBLIC_ADSENSE_GOOGLE_SLOT_NATIVE || '', // Google AdScene>广告>按单元广告>新建原生广告
   ADSENSE_GOOGLE_SLOT_AUTO:
     process.env.NEXT_PUBLIC_ADSENSE_GOOGLE_SLOT_AUTO || '1283834146', // Google AdScene>广告>按单元广告>新建展示广告 （自动广告）
 
