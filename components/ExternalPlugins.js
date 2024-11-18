@@ -63,6 +63,7 @@ const ExternalPlugin = props => {
   const MOUSE_FOLLOW = siteConfig('MOUSE_FOLLOW')
   const CUSTOM_EXTERNAL_CSS = siteConfig('CUSTOM_EXTERNAL_CSS')
   const CUSTOM_EXTERNAL_JS = siteConfig('CUSTOM_EXTERNAL_JS')
+  const LINK = siteConfig('LINK')
   // 默认关闭NProgress
   const ENABLE_NPROGRSS = siteConfig('ENABLE_NPROGRSS', false)
   const COZE_BOT_ID = siteConfig('COZE_BOT_ID')
