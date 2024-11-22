@@ -51,19 +51,19 @@ export default function Footer() {
 
                     {/* 2nd block */}
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        <h6 className="text-gray-800 font-medium mb-2">产品</h6>
+                        <h6 className="text-gray-800 font-medium mb-2">Products</h6>
                         <ul className="text-sm">
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">NotionNext</a>
+                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Coconutio</a>
                             </li>
                             <li className="mb-2">
-                                {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Vercel</a> */}
+                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Candle Holders</a>
                             </li>
                             <li className="mb-2">
-                                {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Github</a> */}
+                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Coconut Wax</a>
                             </li>
                             <li className="mb-2">
-                                {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Notion</a> */}
+                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Coconut Wine Glass</a>
                             </li>
                             <li className="mb-2">
                                 {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">NextJs</a> */}
@@ -73,44 +73,44 @@ export default function Footer() {
 
                     {/* 3rd block */}
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        <h6 className="text-gray-800 font-medium mb-2">资源</h6>
+                        <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
                         <ul className="text-sm">
                             <li className="mb-2">
-                                <a href="https://docs.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">技术文档</a>
+                                <a href="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Sales Team</a>
                             </li>
                             <li className="mb-2">
-                                <a href="https://docs.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">教程指南</a>
+                                <a href="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Technical Support</a>
                             </li>
                             <li className="mb-2">
-                                <a href="https://blog.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">博客</a>
+                                <a href="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</a>
                             </li>
                             <li className="mb-2">
-                                <a href="https://blog.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">支持中心</a>
+                                <a href="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">合作方</a>
+                                {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">合作方</a> */}
                             </li>
                         </ul>
                     </div>
 
                     {/* 4th block */}
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        <h6 className="text-gray-800 font-medium mb-2">企业</h6>
+                        <h6 className="text-gray-800 font-medium mb-2">Company</h6>
                         <ul className="text-sm">
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">主页</a>
+                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">关于我们</a>
+                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">公司价值观</a>
+                                {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">公司价值观</a> */}
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">价格</a>
+                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Price</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">隐私政策</a>
+                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
