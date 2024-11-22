@@ -54,16 +54,16 @@ export default function Footer() {
                         <h6 className="text-gray-800 font-medium mb-2">Products</h6>
                         <ul className="text-sm">
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Coconutio</a>
+                                <a href="/coconut-wax" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Coconut Wax</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Candle Holders</a>
+                                <a href="/candle-holders" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Candle Holders</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Coconut Wax</a>
+                                <a href="/coconut-wax" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Coconut Wax</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Coconut Wine Glass</a>
+                                <a href="/coconut-wine-glass" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Coconut Wine Glass</a>
                             </li>
                             <li className="mb-2">
                                 {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">NextJs</a> */}
@@ -76,16 +76,16 @@ export default function Footer() {
                         <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
                         <ul className="text-sm">
                             <li className="mb-2">
-                                <a href="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Sales Team</a>
+                                <a href="/sales-team" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Sales Team</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Technical Support</a>
+                                <a href="/technical-support" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Technical Support</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</a>
+                                <a href="/blog" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners</a>
+                                <a href="/partners" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners</a>
                             </li>
                             <li className="mb-2">
                                 {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">合作方</a> */}
@@ -98,19 +98,19 @@ export default function Footer() {
                         <h6 className="text-gray-800 font-medium mb-2">Company</h6>
                         <ul className="text-sm">
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
+                                <a href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About</a>
+                                <a href="/about" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About</a>
                             </li>
                             <li className="mb-2">
                                 {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">公司价值观</a> */}
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Price</a>
+                                <a href="/pricing" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Price</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</a>
+                                <a href="/privacy-policy" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
