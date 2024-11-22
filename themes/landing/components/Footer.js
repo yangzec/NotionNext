@@ -45,7 +45,7 @@ export default function Footer() {
                             <Logo />
                         </div>
                         <div className="text-sm text-gray-600">
-                            <Link href="/terms-of-use" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">服务条款</Link> · <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">隐私政策</Link>
+                            <Link href="/terms-of-use" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms of Use</Link> · <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
                         </div>
                     </div>
 
@@ -151,7 +151,7 @@ export default function Footer() {
                     <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
                         <li>
                           <div className='h-full flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100'>
-                             Powered by<a href='https://github.com/tangly1024/NotionNext' className='mx-1 hover:underline font-semibold'>NotionNext {siteConfig('VERSION')}</a>
+                             {/* Powered by<a href='https://github.com/tangly1024/NotionNext' className='mx-1 hover:underline font-semibold'>NotionNext {siteConfig('VERSION')}</a> */}
                           </div>
                         </li>
                         {/* <li>
@@ -178,7 +178,7 @@ export default function Footer() {
                     </ul>
 
                     {/* Copyrights note */}
-                    <div className="text-sm text-gray-600 mr-4">&copy; NotionNext. All rights reserved.</div>
+                    <div className="text-sm text-gray-600 mr-4">&copy; All rights reserved.</div>
 
                 </div>
 
