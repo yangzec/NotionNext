@@ -477,7 +477,7 @@ const BLOG = {
   ADSENSE_GOOGLE_SLOT_FLOW:
     process.env.NEXT_PUBLIC_ADSENSE_GOOGLE_SLOT_FLOW || '5025696663', // Google AdScene>广告>按单元广告>新建信息流广告
   ADSENSE_GOOGLE_SLOT_NATIVE:
-    process.env.NEXT_PUBLIC_ADSENSE_GOOGLE_SLOT_NATIVE || '', // Google AdScene>广告>按单元广告>新建原生广告
+    process.env.NEXT_PUBLIC_ADSENSE_GOOGLE_SLOT_NATIVE || '9937291731', // Google AdScene>广告>按单元广告>新建原生广告
   ADSENSE_GOOGLE_SLOT_AUTO:
     process.env.NEXT_PUBLIC_ADSENSE_GOOGLE_SLOT_AUTO || '1283834146', // Google AdScene>广告>按单元广告>新建展示广告 （自动广告）
 
