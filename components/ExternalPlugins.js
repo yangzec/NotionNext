@@ -367,10 +367,7 @@ const ExternalPlugin = props => {
       {/* Plausible 统计 */}
       {LINK && (
         <script defer data-domain={LINK} src="https://gshqeklb.sealosbja.site/js/script.js"></script>
-        // <script defer data-domain="sprunkincredibox.online" src="https://plausible.io/js/script.js"></script>
-        // <script defer data-domain="n.sprunkincredibox.online" src="https://plausible.io/js/script.js"></script>
       )}
-    <script defer data-domain="tcgpocketpokemon.com" src="https://plausible.io/js/script.js"></script>
     </>
   )
 }
