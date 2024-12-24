@@ -371,13 +371,13 @@ const ExternalPlugin = props => {
 
       {/* monetag广告 */}
 
-      {LINK && (
-        // <script
-        //   src='https://alwingulla.com/88/tag.min.js'
-        //   data-zone='119226'
-        //   async
-        //   data-cfasync='false'
-        // />
+      {false && (
+        <script
+          src='https://alwingulla.com/88/tag.min.js'
+          data-zone='119226'
+          async
+          data-cfasync='false'
+        />
       )}
     </>
   )
