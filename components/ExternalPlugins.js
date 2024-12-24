@@ -369,6 +369,11 @@ const ExternalPlugin = props => {
         <script defer data-domain={LINK} src="https://gshqeklb.sealosbja.site/js/script.js"></script>
       )}
 
+      {/* {谷歌广告} */}
+      {( 
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9312439470930315"
+        crossorigin="anonymous"></script>
+      )}
       {/* monetag广告 */}
 
       {false && (
