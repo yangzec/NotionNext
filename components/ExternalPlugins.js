@@ -366,7 +366,7 @@ const ExternalPlugin = props => {
 
       {/* Plausible 统计 */}
       {LINK && (
-        <script defer data-domain={LINK} src="https://gshqeklb.sealosbja.site/js/script.js"></script>
+        <script defer data-domain={LINK.replace(/^https?:\/\//, '')} src="https://gshqeklb.sealosbja.site/js/script.js"></script>
       )}
 
       {/* {谷歌广告} */}
