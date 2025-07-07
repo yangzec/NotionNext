@@ -45,7 +45,7 @@ export async function getStaticProps({ params: { category }, locale }) {
 
   delete props.allPages
 
-  props = { ...props, category }
+  props = { ...props, category, page: 1 }
 
   return {
     props,
